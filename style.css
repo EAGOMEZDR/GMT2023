@@ -1110,5 +1110,8 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* Justify text on all p*/
 p{text-align: justify;}
 
+/* H2 justify*/
+h2{text-align: center;}
+
 /* Text questions*/
 .questions{background-color:#161719 ;}
