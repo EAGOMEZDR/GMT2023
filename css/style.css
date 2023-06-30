@@ -206,7 +206,7 @@ form input[type="submit"] { padding: 10px 20px; background: #ac8074; color: whit
 /* line 87, ../sass/libs/_components.scss */
 .team { text-align: center; margin-bottom: 30px; }
 /* line 90, ../sass/libs/_components.scss */
-.team .team-image { overflow: hidden; border-radius: 50%; margin: 20vh; width: 250px; height: 250px; display: inline-block; }
+.team .team-image { overflow: hidden; border-radius: 50%; margin: 20vh; width: 50vh; height: 250px; display: inline-block; }
 /* line 98, ../sass/libs/_components.scss */
 .team .team-image img { display: block; }
 /* line 102, ../sass/libs/_components.scss */
@@ -240,7 +240,7 @@ form input[type="submit"] { padding: 10px 20px; background: #ac8074; color: whit
 
 /* feature */
 /* line 183, ../sass/libs/_components.scss */
-.feature-grid { *zoom: 1; }
+.feature-grid { zoom: 1; }
 /* line 4, ../sass/libs/_mixins.scss */
 .feature-grid:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 
@@ -336,7 +336,7 @@ address { background: #111113; color: white; font-family: "Titillium Web", "Open
 address a { color: white; margin-left: 20px; }
 
 /* line 10, ../sass/libs/bootstrap-grid/_grid.scss */
-.container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; *zoom: 1; }
+.container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; zoom: 1; }
 /* line 4, ../sass/libs/_mixins.scss */
 .container:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 @media (min-width: 768px) { /* line 10, ../sass/libs/bootstrap-grid/_grid.scss */
@@ -347,12 +347,12 @@ address a { color: white; margin-left: 20px; }
   .container { width: 1170px; } }
 
 /* line 30, ../sass/libs/bootstrap-grid/_grid.scss */
-.container-fluid { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; *zoom: 1; }
+.container-fluid { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; zoom: 1; }
 /* line 4, ../sass/libs/_mixins.scss */
 .container-fluid:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 
 /* line 39, ../sass/libs/bootstrap-grid/_grid.scss */
-.row { margin-left: -15px; margin-right: -15px; *zoom: 1; }
+.row { margin-left: -15px; margin-right: -15px; zoom: 1; }
 /* line 4, ../sass/libs/_mixins.scss */
 .row:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 
@@ -946,7 +946,7 @@ address a { color: white; margin-left: 20px; }
 /* line 16, ../sass/layout/_header.scss */
 .header-collapse .site-header .container:before { display: none; }
 /* line 19, ../sass/layout/_header.scss */
-.site-header .container { *zoom: 1; padding: 50px 0; position: relative; }
+.site-header .container { zoom: 1; padding: 50px 0; position: relative; }
 /* line 4, ../sass/libs/_mixins.scss */
 .site-header .container:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 /* line 24, ../sass/layout/_header.scss */
@@ -1041,7 +1041,7 @@ address a { color: white; margin-left: 20px; }
 /* line 2, ../sass/pages/_homepage.scss */
 .hero-slider { position: relative; background-color: #111113; }
 /* line 5, ../sass/pages/_homepage.scss */
-.hero-slider .slides { list-style: none; padding: 0; margin: 0; *zoom: 1; }
+.hero-slider .slides { list-style: none; padding: 0; margin: 0; zoom: 1; }
 /* line 4, ../sass/libs/_mixins.scss */
 .hero-slider .slides:after { content: " "; clear: both; display: block; overflow: hidden; height: 0; }
 /* line 11, ../sass/pages/_homepage.scss */
