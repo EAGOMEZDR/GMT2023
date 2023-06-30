@@ -211,7 +211,7 @@ form input[type="submit"]:hover, form input[type="submit"]:active, form input[ty
 /* line 86, sass/libs/_components.scss */
 .feature header .feature-icon { margin-right: 20px; }
 /* line 88, sass/libs/_components.scss */
-.feature header .feature-title { font-size: 24px; font-size: 1.5em; color: white; margin-bottom: 0; line-height: 1; }
+.feature header .feature-title { font-size: 24px; font-size: 1.3em; color: white; margin-bottom: 0; line-height: 1; }
 /* line 94, sass/libs/_components.scss */
 .feature header .feature-subtitle { font-size: 12px; font-size: 0.75em; color: #888; text-transform: uppercase; }
 /* line 101, sass/libs/_components.scss */
@@ -1126,3 +1126,5 @@ h2{text-align: center;}
 
 /*QR position on contact*/
 .map{display: flex; justify-content: center;}
+
+.feature-icon{color:#ac8074; width: auto; height: 5vh;}
