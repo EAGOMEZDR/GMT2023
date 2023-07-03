@@ -1138,4 +1138,8 @@ h2{text-align: center;}
 
 .textoFooter{text-align: center;}
 
+/*Cellphone whatsapp click*/
+#imgWhatsappCel{width: auto; height: 7vh; padding-left:2vh; margin-left:1vh; position:fixed ;bottom:5vh; right:5vh;z-index: 10000;}
 
+@media screen and (min-width: 720px) { /* line 28, sass/layout/_footer.scss */
+  #imgWhatsappCel { display:none } }
